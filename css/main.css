@@ -1,1 +1,113 @@
 /* Los estilos de tu proyecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin-top: 50px;
+}
+.white-color {
+    background-color: #fff;
+}
+.download-app {
+    display: block;
+    margin-top: 12px;
+}
+.white-letter {
+    color: #fff;
+}
+h3 {
+    display: inline;
+}
+.logo-white {
+    width: 18vw;
+    display: inline;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.float-left {
+    float: left;
+    margin-left: 15px;
+}
+.float-right {
+    float: right;
+}
+.phone-image {
+    width: 60vw;
+}
+.margin-second-section {
+    margin: 1em;
+}
+.border-white {
+    border: 1px solid #fff;
+}
+.text-second-container {
+    display: block;
+}
+nav {
+    outline: 1px solid green;
+}
+.city-image {
+    background-image: url("../assets/images/taxi.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 300px;
+    outline: 1px solid red;
+}
+.yellow-background {
+    background-color: #FFC107;
+}
+.yellow {
+    background-color: #FFC107;
+    height: 24vh;
+    width: 75vw;
+    margin: 14vh 0;
+    padding: 1.5rem;
+}
+.bold {
+    font-weight: 600;
+}
+.bar-menu-container {
+    display: block;
+}
+.logo-image {
+    margin-left: 20vw;
+}
+.increse-height {
+    margin-top: 187px;
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+}
+.increse-height {
+    margin-top: 187px;
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+}
+.decrease-height {
+    margin-top: 50px;
+    transition-property: margin-top;
+    transition-duration: 0.4s;
+}
+.text-white {
+    color: #fff;
+}
+.drive-image {
+    background-image: url(../assets/images/conduce.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 300px;
+}
+.text-second-container {
+    margin-left: 1.5em;   
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 10px 5px;
+    }
+    .float-right {
+    float: right;
+    }
+
+}
