@@ -19,5 +19,5 @@ window.addEventListener('load', function(event) {
     $("#myBtn").click(function(){
         $("#myModal").modal();
     });
-});
+  });
 })
