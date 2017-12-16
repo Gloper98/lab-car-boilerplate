@@ -13,4 +13,11 @@ window.addEventListener('load', function(event) {
             content.classList.remove('decrease-height');
         }
     })
+    
+    //MAP
+    $(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
 })

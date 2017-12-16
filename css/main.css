@@ -52,8 +52,7 @@ nav {
     background-image: url("../assets/images/taxi.jpg");
     background-position: bottom;
     background-size: cover;
-    height: 300px;
-    outline: 1px solid red;
+    height: 55vh;
 }
 .yellow-background {
     background-color: #FFC107;
@@ -79,11 +78,6 @@ nav {
     transition-property: margin-top;
     transition-duration: 0.5s;
 }
-.increse-height {
-    margin-top: 187px;
-    transition-property: margin-top;
-    transition-duration: 0.5s;
-}
 .decrease-height {
     margin-top: 50px;
     transition-property: margin-top;
@@ -96,17 +90,71 @@ nav {
     padding: 15vh 8vw;
 }
 .drive-image {
-    background: linear-gradient( 
-        rgba(0,0,0,0.7), rgba(0,0,0,0.7)
-    ),
-        url(../assets/images/conduce.jpg);
-    background-position: bottom;
+    background-image: url('../assets/images/conduce.jpg');
     background-size: cover;
     height: 300px; 
+}
+.background-dark {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
 }
 .text-second-container {
     margin-left: 1.5em;   
 }
+.map-container-height-margin {
+    height: auto;
+    margin: 8vh 0 3vh 0;
+}
+.border-white {
+    border: 1px solid #fff;
+}
+.footer-labC {
+    margin: 0.7em 0;
+}
+.border-bottom-white {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1em;
+}
+.footer-menu {
+    color: #fff;
+    margin: 1em 0;
+    cursor: pointer;
+}
+.footer-menu:hover {
+    color: #FFC107;
+}
+.footer-icon {
+    margin: 0.3em;
+}
+.store-logo-footer {
+    width: 8em;
+    height: auto;
+    margin: 0.3em;
+}
+.icons-container {
+    margin-bottom: 0.5em;
+}
+.copyright {
+    border-top: 1px solid #fff;
+    padding-top: 0.8em;
+}
+/*map style*/
+#map {
+     height: 30vh;
+     width: 100%;
+    margin: 2vh 0;
+     }
+.map-container {
+    padding-bottom: 4vh;
+}
+
+
+/*FORM*/
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
 
 @media (min-width: 768px) {
     .navbar {
