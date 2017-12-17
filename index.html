@@ -119,16 +119,15 @@
                           <p class="text-white">Consulta las tarifas LabCar aqui</p>
                           <form>
                             <div class="form-group">
-                                <input  type="text" class=" margin-input form-control yellow-background text-white border-white height-line" id="formGroupExampleInput" placeholder="¿Donde estas?">
+                                <img  class="shape" src="assets/images/shape.png" alt="shapeOne" ><input  type="text" class=" margin-input form-control yellow-background text-white border-white height-line input-inline-block" id="formGroupExampleInput" placeholder="¿Donde estas?">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control yellow-background text-white border-white margin-input" id="formGroupExampleInput2" placeholder="¿A donde quieres ir?">
+                                <img class="shape" src="assets/images/shape2.png" alt="shapeTwo"><input type="text" class="form-control yellow-background text-white border-white margin-input input-inline-block" id="formGroupExampleInput2" placeholder="¿A donde quieres ir?">
                             </div>
                            </form>
                            <div class="text-center">
                                <button type="button" class="btn btn-light white-color bold">¡Trazar mi ruta!</button>
                            </div>
-                          
                       </div>
                       <div class="container">
                          <div class="col-xs-12 col-sm-6 margin-map border-white">
@@ -205,87 +204,45 @@
         </footer>
         <div class="container">
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+        <!-- Modal -->
+       <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal-dialog">
     
-      <!-- Modal content-->
-      <div class="modal-content sky-background">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <div class="text-center">
-              <img class="user-img" src="assets/images/user.png" alt="user">
+        <!-- Modal content-->
+        <div class="modal-content sky-background">
+          <div class="modal-header" style="padding:35px 50px;">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="text-center">
+                <img class="user-img" src="assets/images/user.png" alt="user">
+            </div>
+            <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
           </div>
-          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
-        </div>
-        <div class="modal-body grey-background" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
+          <div class="modal-body grey-background" style="padding:40px 50px;">
+            <form role="form">
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                <input type="text" class="form-control" id="psw" placeholder="Enter password">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="" checked>Remember me</label>
+              </div>
               <button type="submit" class="btn  btn-block yellow-background"><span class="glyphicon glyphicon-off"></span> Login</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-          <p>Not a member? <a href="#signup" data-toggle="modal" data-target=".bs-modal-sm"href="#">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+            <p>Not a member? <a href="#signup" data-toggle="modal" data-target=".bs-modal-sm"href="#">Sign Up</a></p>
+            <p>Forgot <a href="#">Password?</a></p>
+          </div>
         </div>
       </div>
-      
-    </div>
-  </div> 
-</div>
-   
-   <div class="container">
+    </div> 
+  </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModalTravel" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content sky-background">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <div class="text-center">
-              <img class="user-img" src="assets/images/user.png" alt="user">
-          </div>
-          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
-        </div>
-        <div class="modal-body grey-background" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-              <button type="submit" class="btn  btn-block yellow-background"><span class="glyphicon glyphicon-off"></span> Login</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-          <p>Not a member? <a href="#signup" data-toggle="modal" data-target=".bs-modal-sm"href="#">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
-        </div>
-      </div>
-      
-    </div>
-  </div> 
-</div>
     
         <script>
            function initMap(event) {

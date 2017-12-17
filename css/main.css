@@ -21,11 +21,20 @@ main {
     width: 10vw;
     height: auto;
 }
+.input-inline-block {
+    display: inline-block;
+    width: 20vw;
+}
 .grey-background {
     background-color: #F5F5F5;
 }
 .white-letter {
     color: #fff;
+}
+.shape {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
 }
 a {
     text-decoration:  none;
@@ -323,7 +332,7 @@ img {
         margin: 6vh 6vw;
     }
     .margin-input {
-        margin: 5vh 0;
+        margin:3vh 0;
     }
     .margin-map {
         margin: 5vh 0 5vh 6vh;
