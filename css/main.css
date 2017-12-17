@@ -29,6 +29,9 @@ h3 {
     margin-bottom: 5px;
     margin-left: 10px;
 }
+.margin-map {
+       margin-top: 6vh;
+    }
 .float-left {
     float: left;
     margin-left: 15px;
@@ -284,3 +287,49 @@ img {
         padding-bottom: 3em;
     }
 }
+
+@media (min-width: 1200px) {
+    .yellow {
+    height: auto;
+    width: 38vw;
+    padding: 2vh 2vw;
+    }
+    .city-image {
+    height: auto;
+    }
+    .phone-image {
+    margin-right: 10vw;
+    }
+    .download-text-display {
+        width: 30vw;
+        padding-top: 10vh;
+    }
+    .price-container {
+        padding: 5vh 4vw;
+        margin: 6vh 6vw;
+    }
+    .margin-input {
+        margin: 5vh 0;
+    }
+    .margin-map {
+        margin: 5vh 0 5vh 6vh;
+       
+    }
+    #map {
+        height: 50vh;
+    }
+    .logo-footer-image {
+        width: 6vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+    footer {
+        padding-bottom: 8vh;
+    }
+    .download-text-display p {
+        font-size: 17px;
+    }
+}
+.download-container {
+        height: auto;
+    }
