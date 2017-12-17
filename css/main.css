@@ -23,7 +23,7 @@ main {
 }
 .input-inline-block {
     display: inline-block;
-    width: 20vw;
+    width: 80vw;
 }
 .grey-background {
     background-color: #F5F5F5;
@@ -238,6 +238,10 @@ img {
     .navbar {
         padding: 10px 5px;
     }
+    .input-inline-block {
+    display: inline-block;
+    width: 40vw;
+    }
     .float-options {
     float: right;
     }
@@ -317,6 +321,7 @@ img {
     width: 38vw;
     padding: 2vh 2vw;
     }
+  
     .city-image {
     height: auto;
     }
