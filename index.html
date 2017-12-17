@@ -101,7 +101,7 @@
            <!--third section-->
            <section>
                <div class="container-fluid drive-image">
-                   <div class="row background-dark">
+                   <div class="row background-dark col-sm-6 col-sm-offset-6">
                        <div class="col-xs-12 drive-section text-justify" >
                                      <h4 class="bold white-letter">Conduce cuando quieras</h4>
                                      <p class="text-white">LabCar es una opcion flexiblem para alcanzar tus metas financieras</p>
@@ -113,8 +113,8 @@
            <!--fourth section-->
            <section>
                <div class="container-fluid">
-                   <div class="row yellow-background map-container">
-                      <div class="col-xs-12 map-container-height-margin">
+                   <div class="row yellow-background map-container content-map-section map-dimentions">
+                      <div class="col-xs-12 col-sm-6">
                           <h4 class="text-white">Tarifas</h4>
                           <p class="text-white">Consulta las tarifas LabCar aqui</p>
                           <form>
@@ -125,10 +125,13 @@
                                 <input type="text" class="form-control yellow-background text-white border-white" id="formGroupExampleInput2" placeholder="¿A donde quieres ir?">
                             </div>
                            </form>
-                          <button type="button" class="btn btn-light white-color bold">¡Trazar mi ruta!</button>
+                           <div class="text-center">
+                               <button type="button" class="btn btn-light white-color bold">¡Trazar mi ruta!</button>
+                           </div>
+                          
                       </div>
                       <div class="container">
-                         <div class="col-xs-12 border-white">
+                         <div class="col-xs-12 col-sm-6 border-white">
                              <div id="map"></div>
                          </div>
                       </div>
@@ -136,7 +139,7 @@
                </div>
            </section>
         </main>
-        <footer class="background-dark">
+        <footer class="background-dark footer-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 footer-labC">
@@ -146,7 +149,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-6">
+                    <div class="col-xs-6 col-sm-3 col-sm-push-3">
                         <div class="footer-links">
                             <p class="footer-menu">Viaja</p>
                             <p class="footer-menu">Conduce</p>
@@ -157,7 +160,19 @@
                             <p class="footer-menu">Seguridad</p>
                         </div>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-6 col-sm-3 hidden-xs  col-sm-push-3">
+                        <div class="footer-links">
+                            <p class="footer-menu">Oportunidades</p>
+                            <p class="footer-menu">Nuestra historia</p>
+                            <p class="footer-menu">API de LabCar</p>
+                            <p class="footer-menu">Eventos</p>
+                            <p class="footer-menu">Desarrolladores</p>
+                            <p class="footer-menu">Servicios</p>
+                            <p class="footer-menu">Laboratoria</p>
+                            <p class="footer-menu">Coders</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-sm-pull-6">
                        <div class="row">
                         <div class="col-xs-12 icons-container">
                         <span class="icon-social-facebook text-white footer-icon"></span> 
@@ -168,7 +183,7 @@
                         </div>
                        </div>
                        <div class="row">
-                           <div class="col-xs-12">
+                           <div class="col-xs-12 col-sm-3">
                                <div>
                                    <img class="store-logo-footer" src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWeb">
                                </div>
@@ -227,136 +242,6 @@
   </div> 
 </div>
     
-       <div class="modal fade bs-modal-sm" id="myModalOne" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-        <br>
-        <div class="bs-example bs-example-tabs">
-            <ul id="myTab" class="nav nav-tabs">
-              <li class="active"><a href="#signup" data-toggle="tab">Register</a></li>
-              <li ><a href="#why" data-toggle="tab">Why?</a></li>
-            </ul>
-        </div>
-      <div class="modal-body">
-        <div id="myTabContent" class="tab-content">
-        
-        
-        <div class="tab-pane fade" id="signup">
-            <form class="form-horizontal">
-            <fieldset>
-            <!-- Sign Up Form -->
-            <!-- Text input-->
-            <div class="control-group">
-              <label for="exampleFormControlSelect1">¿Tienes vehiculo de cuatro puertas?</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-     <option value="" hidden>select an option</option>
-      <option>si</option>
-      <option>no</option>
-    </select>
-           
-            </div>
-            
-            <!-- Text input-->
-            <div class="control-group">
-              <label for="exampleFormControlSelect1">Marca</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-     <option value="" hidden>Elige la marca del vehiculo</option>
-      <option>Toyota</option>
-      <option>Mazda</option>
-      <option>Hyundai</option>
-      <option>volkswagen</option>
-    </select>
-           <label class="font-size-mini">¿No ve su vehiculo en la lista? Envienos un correo electronico a <a href="#">sociosmvdub@uber.com</a></label>
-            </div>
-            
-            <div class="control-group">
-              <label for="exampleFormControlSelect1">Modelo</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-     <option value="" hidden>Elige el modelo del vehiculo</option>
-      <option>modelo 610 CV</option>
-      <option>modelo 23V01</option>
-      <option>modelo 2015</option>
-      <option>modelo 01</option>
-    </select>
-            </div>
-            
-            <div class="control-group">
-              <label for="exampleFormControlSelect1">Año</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-     <option value="" hidden>Año de adquisicion del vehiculo</option>
-      <option>2017</option>
-      <option>2016</option>
-      <option>2015</option>
-      <option>2014</option>
-      <option>2013</option>
-      <option>2012</option>
-      <option>2011</option>
-      <option>2010</option>
-      <option>2009</option>
-      <option>2008</option>
-      <option>2007</option>
-      <option>2006</option>
-      <option>2005</option>
-      <option>2004</option>
-    </select>
-            </div>
-            
-            <div class="control-group">
-              <label class="control-label" for="userid">Numero de matricula</label>
-              <div class="controls">
-                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JET-101" class="input-medium" required="">
-                <label class="font-size-mini">La informacion de tu matricula ayuda a tus clientes a identificar tu vehiculo</label>
-              </div>
-            </div>
-            
-            <!-- Password input-->
-            <div class="control-group">
-              <label class="control-label" for="password">Password:</label>
-              <div class="controls">
-                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
-                <em>1-8 Characters</em>
-              </div>
-            </div>
-            
-            <!-- Text input-->
-            <div class="control-group">
-              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
-              <div class="controls">
-                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
-              </div>
-            </div>
-            
-            <!-- Multiple Radios (inline) -->
-            <br>
-            <div class="control-group">
-              <label class="control-label" for="humancheck">Humanity Check:</label>
-              <div class="controls">
-                <label class="radio inline" for="humancheck-0">
-                  <input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I'm a Robot</label>
-                <label class="radio inline" for="humancheck-1">
-                  <input type="radio" name="humancheck" id="humancheck-1" value="human">I'm Human</label>
-              </div>
-            </div>
-            
-            <!-- Button -->
-            <div class="control-group">
-              <label class="control-label" for="confirmsignup"></label>
-              <div class="controls">
-                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign Up</button>
-              </div>
-            </div>
-            </fieldset>
-            </form>
-      </div>
-      <div class="tab-pane fade in" id="why">
-        <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
-        <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
-        </div>
-    </div>
-      </div>
-      <div class="modal-footer">
-      <center>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <script>
            function initMap(event) {
                  var options = {

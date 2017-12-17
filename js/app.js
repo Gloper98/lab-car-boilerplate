@@ -17,7 +17,7 @@ window.addEventListener('load', function(event) {
     //MAP
     $(document).ready(function(){
     $("#myBtn").click(function(){
-        $("#myModalOne").modal();
+        $("#myModal").modal();
     });
   });
     
