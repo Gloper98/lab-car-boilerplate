@@ -7,6 +7,9 @@
 main {
     margin-top: 50px;
 }
+.sky-background {
+    background-color: #08AC9D;
+}
 .white-color {
     background-color: #fff;
 }
@@ -14,7 +17,18 @@ main {
     display: block;
     margin-top: 12px;
 }
+.user-img {
+    width: 10vw;
+    height: auto;
+}
+.grey-background {
+    background-color: #F5F5F5;
+}
 .white-letter {
+    color: #fff;
+}
+a {
+    text-decoration:  none;
     color: #fff;
 }
 h3 {

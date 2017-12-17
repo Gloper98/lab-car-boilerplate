@@ -21,6 +21,12 @@ window.addEventListener('load', function(event) {
     });
   });
     
+    $(document).ready(function(){
+    $("#myBtnTravel").click(function(){
+        $("#myModalTravel").modal();
+    });
+  });
+    
     var width = window.innerWidth;
     var height = window.innerHeight;
 
