@@ -15,7 +15,6 @@
   <nav class="navbar navbar-default navbar-fixed-top white-color">
     <div class="container">
               
-
        <div class="bar-menu-container">
         <button id="button-dropdown" type="button" class="navbar-toggle collapsed float-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
           aria-controls="navbar">
@@ -24,23 +23,27 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img class="navbar-brand logo-image" src="assets/images/logoForma.png"  alt="logo-forma" href="#">
+        
         </div>
-        <div id="navbar" class="navbar-collapse collapse float-options">
-        <ul class="nav navbar-nav">
+        <img class="navbar-brand logo-image" src="assets/images/logoForma.png"  alt="logo-forma" href="#">
+
+        <div id="navbar" class="col-xs-12 float-right navbar-collapse collapse">
+        <ul class="nav navbar-nav show-like">
           <li>
-            <a href="#">Viaja</a>
+            <a class="menu-bar-options" href="#">Viaja</a>
           </li>
           <li>
-            <a href="#about">Conduce</a>
+            <a class="menu-bar-options" href="#about">Conduce</a>
           </li>
           <li>
-            <a href="#contact" id="myBtn">Inicia Sesion</a>
+            <a class="menu-bar-options" href="#contact" id="myBtn">Inicia Sesion</a>
           </li>
         </ul>
+        
       </div>
       
     </div>
+    
     
    </nav>
       </header>
@@ -53,9 +56,18 @@
                    <div class="row">
                        <div class="col-xs-12" >
                             <div class="row">
-                                <div class="col-xs-8 yellow float-right">
-                                     <h3 class="bold white-letter">Comienza a viajar con</h3><img class="logo-white" src="assets/images/logoBlanco.png" alt="logo-white">
+                                <div id="first-div" class="col-xs-8 yellow float-right display-divOne">
+                                     <h3 id="title" class="bold white-letter blockOr">Comienza a viajar con</h3>
+                                     <img id="logo-white" class="logo-white" src="assets/images/logoBlanco.png" alt="logo-white">
                                      <button type="button" class="btn btn-light white-color bold download-app">Descarga el App</button>
+                                </div>
+                                <div id="second-div" class="col-xs-8 yellow float-right display-divTwo">
+                                     <h3 id="title" class="bold white-letter blockOr">Disfruta del viaje.</h3>
+                                     <h3 id="title" class="bold white-letter">Eres dueño de tu tiempo.</h3>
+                                     <p id="newText" class="display style-title">Viaja con</p><img id="logo-white" class="logo-white" src="assets/images/logoBlanco.png" alt="logo-white">
+                                     <button type="button" class="btn btn-light white-color bold download-app">Descarga el App</button>
+                                     <p id="line" class="display-line text-white">O bien</p>
+                                     <button id="signUp" type="button" class="btn btn-light white-color bold download-app">Conviertete en un conductor</button>
                                 </div>
                        </div>
                    </div>
@@ -67,18 +79,20 @@
            <section class="second-section yellow-background">
                <div class="container">
                    <div class="row">
-                       <div class="col-xs-12">
+                       <div id="phone-column" class="col-xs-12">
                            <div class="row">
-                               <div class="col-xs-11 text-center border-white margin-second-section">
-                                   <h4 class="text-white new-app-title">La nueva app</h4>
+                               <div class="col-xs-10 text-center border-white margin-second-section phone-div">
+                                   <h4 class="text-white new-app-title phone-first-text-display">La nueva app</h4>
                                    <img class="phone-image" src="assets/images/iPhone6Plus.png" alt="plus-phone">
+                                   <div class="download-text-display text-left">
+                                       <h3 class="download-title">Descarga la nueva app</h3>
+                                       <p>La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aun mas facil y rapido.</p>
+                                       <p>Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes, tu conductor sabe exactamente donde ir.</p>
+                                   </div>
                                </div>
-                               
                                <div>
-                                    <h4 class="text-second-container text-white">Llega a tu destino aun mas rapido</h4>
-                               </div>
-                                  
-                               
+                                    <h4 class="text-second-container text-white phone-first-text-display">Llega a tu destino aun mas rapido</h4>
+                               </div> 
                            </div>
                        </div>
                    </div>
@@ -213,22 +227,19 @@
   </div> 
 </div>
     
-       <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+       <div class="modal fade bs-modal-sm" id="myModalOne" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
         <br>
         <div class="bs-example bs-example-tabs">
             <ul id="myTab" class="nav nav-tabs">
               <li class="active"><a href="#signup" data-toggle="tab">Register</a></li>
-              <li class=""><a href="#why" data-toggle="tab">Why?</a></li>
+              <li ><a href="#why" data-toggle="tab">Why?</a></li>
             </ul>
         </div>
       <div class="modal-body">
         <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade in" id="why">
-        <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
-        <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
-        </div>
+        
         
         <div class="tab-pane fade" id="signup">
             <form class="form-horizontal">
@@ -337,6 +348,10 @@
             </fieldset>
             </form>
       </div>
+      <div class="tab-pane fade in" id="why">
+        <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
+        <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
+        </div>
     </div>
       </div>
       <div class="modal-footer">

@@ -17,7 +17,18 @@ window.addEventListener('load', function(event) {
     //MAP
     $(document).ready(function(){
     $("#myBtn").click(function(){
-        $("#myModal").modal();
+        $("#myModalOne").modal();
     });
   });
+    
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+   if (width  >= 768) {
+    // Mobile code
+       
+    } else if (width < 768){
+ 
+    }
+    
 })
