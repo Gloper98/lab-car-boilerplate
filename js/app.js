@@ -1,4 +1,4 @@
-// La funcionalidad de tu proyecto
+// Funcionalidad del navbar
 window.addEventListener('load', function(event) {
     
     var buttonDropdown = document.getElementById('button-dropdown');
@@ -12,29 +12,5 @@ window.addEventListener('load', function(event) {
             content.classList.add('increse-height');
             content.classList.remove('decrease-height');
         }
-    })
-    
-    //MAP
-    $(document).ready(function(){
-    $("#myBtn").click(function(){
-        $("#myModal").modal();
-    });
-  });
-    
-    $(document).ready(function(){
-    $("#myBtnTravel").click(function(){
-        $("#myModalTravel").modal();
-    });
-  });
-    
-    var width = window.innerWidth;
-    var height = window.innerHeight;
-
-   if (width  >= 768) {
-    // Mobile code
-       
-    } else if (width < 768){
- 
-    }
-    
+    })    
 })
