@@ -1,4 +1,4 @@
-# ![logo-forma](https://github.com/Gloper98/lab-car-boilerplate/raw/master/assets/images/logoForma.png "LabCar") LabCar Boilerplate
+# ![logo-forma](https://github.com/Gloper98/lab-car-boilerplate/raw/master/assets/images/logoForma.png "LabCar")
 En este ejercicio replicamos la pagina web de servicios de transporte LabCar utilizando [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) y el Framework [Bootstrap](https://getbootstrap.com/).
 
 ### Vista previa
